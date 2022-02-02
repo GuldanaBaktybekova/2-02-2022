@@ -158,6 +158,13 @@ var exampleComparisons2 = "5" != 5; //true
 Увеличивать число на единицу
 Пока число меньше или равно  3
  */
-for (var index = 1; index <= 3; index++) {
-  document.write(index);
+
+var exampleFor = "Hello world";
+for (var i = 0; i <= exampleFor.length; i++) {
+  document.write(exampleFor[i] + " ");
+}
+
+// Functions
+function sayHello(name, timeOfDay) {
+  document.write('Hello ${name},  have a great ${timeOfDay}!<br>')
 }
