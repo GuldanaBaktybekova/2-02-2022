@@ -33,4 +33,18 @@ var exampleUndefined2 = undefined;
 // document.write(exampleUNdefined);
 
 // Not now
-var exampleBigInt = 15161631615
+var exampleBigInt = 15161631615n;
+// Symbol - Not now
+var exampleSymbol = Symbol("id");
+
+// Objects
+var exampleObject1 = {};
+var exampleObject2 = Math;
+
+// // Weird stuff
+//  document.write(typeof null); //object
+
+
+
+
+// Output
