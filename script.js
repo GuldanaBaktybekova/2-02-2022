@@ -107,3 +107,57 @@ exampleMath9++;
 exampleMath9--;
 ++exampleMath9;
 --exampleMath9;
+
+// Comparisons
+var exampleComparisons1 = 6 > 5; //true
+var exampleComparisons2 = 6 < 5; //false
+var exampleComparisons3 = 6 >= 5; //true
+var exampleComparisons4 = 6 <= 5; //false
+var exampleComparisons5 = 6 === 5; //false
+var exampleComparisons6 =6 == 5; //false
+var exampleComparisons7 = "5" == 5; //true
+var exampleComparisons2 = "5" != 5; //true
+
+
+// If else
+/*
+1.Если чайник кипит
+ Выключить газ
+ Иначе
+ Проверить позже
+ */
+ 
+
+// var age = prompt("How old are you?");
+
+// var votingyears = age - 18;
+// if (+age === NaN) {
+//   alert("Wrong input. Numbers only.")
+// }
+// else if (votingYears < 0) {
+//   alert("You are too young to vote!")
+// }
+// else {
+//   alert("You could've vote for " + votingYears + " years")
+
+// }
+
+
+/*
+Если пользователь ввел число 13
+ Спросить снова
+*/
+
+// var userNumber; //undefined
+// while (userNumber != 13) {
+//    userNumber = prompt("Write thirteen as a number")
+// }
+
+/*
+Начни с числа 1
+Увеличивать число на единицу
+Пока число меньше или равно  3
+ */
+for (var index = 1; index <= 3; index++) {
+  document.write(index);
+}
